@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>187.jpg</filename>
+	<path>/home/ostap/Documents/project/ImageWork/Beta1/wineBottle/image/187.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wine</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>184</xmin>
+			<ymin>135</ymin>
+			<xmax>371</xmax>
+			<ymax>715</ymax>
+		</bndbox>
+	</object>
+</annotation>
