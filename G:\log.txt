@@ -1,0 +1,436 @@
+[2019-08-29 14:04:23,636 INFO download_all]: Extracting image links
+[2019-08-29 14:04:23,636 INFO download_all]: Souping
+[2019-08-29 14:04:27,316 DEBUG sjisprober]: CP932 Japanese prober hit error at byte 110727
+[2019-08-29 14:04:27,318 DEBUG eucjpprober]: EUC-JP Japanese prober hit error at byte 248
+[2019-08-29 14:04:28,463 DEBUG mbcharsetprober]: GB2312 Chinese prober hit error at byte 360102
+[2019-08-29 14:04:28,464 DEBUG mbcharsetprober]: EUC-KR Korean prober hit error at byte 248
+[2019-08-29 14:04:28,465 DEBUG mbcharsetprober]: CP949 Korean prober hit error at byte 248
+[2019-08-29 14:04:29,604 DEBUG mbcharsetprober]: Big5 Chinese prober hit error at byte 360102
+[2019-08-29 14:04:29,606 DEBUG mbcharsetprober]: EUC-TW Taiwan prober hit error at byte 248
+[2019-08-29 14:04:31,047 DEBUG sbcharsetprober]: ISO-8859-7 confidence = 0.0, below negative shortcut threshhold 0.05
+[2019-08-29 14:04:31,256 DEBUG sbcharsetprober]: windows-1253 confidence = 0.0, below negative shortcut threshhold 0.05
+[2019-08-29 14:04:33,067 DEBUG sbcharsetprober]: windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+[2019-08-29 14:04:33,275 DEBUG sbcharsetprober]: windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+[2019-08-29 14:04:34,043 DEBUG charsetgroupprober]: windows-1251 Russian confidence = 0.01
+[2019-08-29 14:04:34,043 DEBUG charsetgroupprober]: KOI8-R Russian confidence = 0.01
+[2019-08-29 14:04:34,044 DEBUG charsetgroupprober]: ISO-8859-5 Russian confidence = 0.07574762062310486
+[2019-08-29 14:04:34,044 DEBUG charsetgroupprober]: MacCyrillic Russian confidence = 0.0033888955772861727
+[2019-08-29 14:04:34,044 DEBUG charsetgroupprober]: IBM866 Russian confidence = 0.011950458331764974
+[2019-08-29 14:04:34,044 DEBUG charsetgroupprober]: IBM855 Russian confidence = 0.11882640466036704
+[2019-08-29 14:04:34,044 DEBUG charsetgroupprober]: ISO-8859-7 not active
+[2019-08-29 14:04:34,045 DEBUG charsetgroupprober]: windows-1253 not active
+[2019-08-29 14:04:34,045 DEBUG charsetgroupprober]: ISO-8859-5 Bulgairan confidence = 0.10665020243049927
+[2019-08-29 14:04:34,045 DEBUG charsetgroupprober]: windows-1251 Bulgarian confidence = 0.0
+[2019-08-29 14:04:34,045 DEBUG charsetgroupprober]: TIS-620 Thai confidence = 0.17867027598763738
+[2019-08-29 14:04:34,046 DEBUG charsetgroupprober]: ISO-8859-9 Turkish confidence = 0.34972723736348305
+[2019-08-29 14:04:34,046 DEBUG charsetgroupprober]: windows-1255 Hebrew confidence = 0.0
+[2019-08-29 14:04:34,046 DEBUG charsetgroupprober]: windows-1255 not active
+[2019-08-29 14:04:34,046 DEBUG charsetgroupprober]: windows-1255 not active
+[2019-08-29 14:04:34,046 DEBUG charsetgroupprober]: windows-1251 Russian confidence = 0.01
+[2019-08-29 14:04:34,046 DEBUG charsetgroupprober]: KOI8-R Russian confidence = 0.01
+[2019-08-29 14:04:34,047 DEBUG charsetgroupprober]: ISO-8859-5 Russian confidence = 0.07574762062310486
+[2019-08-29 14:04:34,047 DEBUG charsetgroupprober]: MacCyrillic Russian confidence = 0.0033888955772861727
+[2019-08-29 14:04:34,047 DEBUG charsetgroupprober]: IBM866 Russian confidence = 0.011950458331764974
+[2019-08-29 14:04:34,047 DEBUG charsetgroupprober]: IBM855 Russian confidence = 0.11882640466036704
+[2019-08-29 14:04:34,047 DEBUG charsetgroupprober]: ISO-8859-7 not active
+[2019-08-29 14:04:34,047 DEBUG charsetgroupprober]: windows-1253 not active
+[2019-08-29 14:04:34,047 DEBUG charsetgroupprober]: ISO-8859-5 Bulgairan confidence = 0.10665020243049927
+[2019-08-29 14:04:34,048 DEBUG charsetgroupprober]: windows-1251 Bulgarian confidence = 0.0
+[2019-08-29 14:04:34,048 DEBUG charsetgroupprober]: TIS-620 Thai confidence = 0.17867027598763738
+[2019-08-29 14:04:34,048 DEBUG charsetgroupprober]: ISO-8859-9 Turkish confidence = 0.34972723736348305
+[2019-08-29 14:04:34,048 DEBUG charsetgroupprober]: windows-1255 Hebrew confidence = 0.0
+[2019-08-29 14:04:34,048 DEBUG charsetgroupprober]: windows-1255 not active
+[2019-08-29 14:04:34,048 DEBUG charsetgroupprober]: windows-1255 not active
+[2019-08-29 14:04:34,326 INFO download_all]: Extracting image urls
+[2019-08-29 14:04:34,388 INFO download_all]: Downloading images
+[2019-08-29 14:04:34,388 INFO download_all]: Making request (0/100): https://images-na.ssl-images-amazon.com/images/I/71gI-IUNUkL._SL1500_.jpg
+[2019-08-29 14:04:34,923 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/03e949506a884f22a21610c5662d4c84.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/03e949506a884f22a21610c5662d4c84.jpg'
+[2019-08-29 14:04:34,925 INFO download_all]: Making request (1/100): https://assets.shop.loblaws.ca/products_jpeg/20175355001/en/20175355001_lrg_1_@1x.jpg
+[2019-08-29 14:04:35,653 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/2291288eea0a49a0af760f98c40272df.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/2291288eea0a49a0af760f98c40272df.jpg'
+[2019-08-29 14:04:35,654 INFO download_all]: Making request (2/100): https://cdn.mos.cms.futurecdn.net/42E9as7NaTaAi4A6JcuFwG-320-80.jpg
+[2019-08-29 14:04:36,225 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/f3b1718bab914bd1a7fbb5d97b80f3f2.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/f3b1718bab914bd1a7fbb5d97b80f3f2.jpg'
+[2019-08-29 14:04:36,226 INFO download_all]: Making request (3/100): https://i5.walmartimages.com/asr/209bb8a0-30ab-46be-b38d-58c2feb93e4a_1.1a15fb5bcbecbadd4a45822a11bf6257.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF
+[2019-08-29 14:04:36,554 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/d052a69f3c804da0808388224425a492.jpeg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/d052a69f3c804da0808388224425a492.jpeg'
+[2019-08-29 14:04:36,555 INFO download_all]: Making request (4/100): https://ripeme.com/wp-content/uploads/RF-10012-RIPE-ORGANIC-ORGANIC-BANANAS.jpg
+[2019-08-29 14:04:37,197 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/2556eddeda664ca68f2841dc727a3760.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/2556eddeda664ca68f2841dc727a3760.jpg'
+[2019-08-29 14:04:37,198 INFO download_all]: Making request (5/100): https://images-na.ssl-images-amazon.com/images/I/61fZ%2BYAYGaL._SL1500_.jpg
+[2019-08-29 14:04:37,764 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/b60b1644415547bcb0cb7fbbd2d2b697.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/b60b1644415547bcb0cb7fbbd2d2b697.jpg'
+[2019-08-29 14:04:37,765 INFO download_all]: Making request (6/100): https://cosmos-images2.imgix.net/file/spina/photo/13954/100118_Debunked_01.jpg?ixlib=rails-2.1.4&auto=format&ch=Width%2CDPR&fit=max&w=835
+[2019-08-29 14:04:39,435 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/84bb14321c144b60a23ddb9c68afbc78.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/84bb14321c144b60a23ddb9c68afbc78.jpg'
+[2019-08-29 14:04:39,436 INFO download_all]: Making request (7/100): https://media.npr.org/assets/img/2018/09/23/gettyimages-86304874_wide-050425b9a45d2e824f38425174d73cfa8f7390ba-s800-c85.jpg
+[2019-08-29 14:04:40,553 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/690f506943fb49bdbb916c158686300e.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/690f506943fb49bdbb916c158686300e.jpg'
+[2019-08-29 14:04:40,554 INFO download_all]: Making request (8/100): https://cdn-prod.medicalnewstoday.com/content/images/articles/319/319968/half-peeled-banana-on-top-of-bunch-of-bananas.jpg
+[2019-08-29 14:04:42,294 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/8c28068a62694d22820caad890252533.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/8c28068a62694d22820caad890252533.jpg'
+[2019-08-29 14:04:42,295 INFO download_all]: Making request (9/100): https://www.insideedition.com/sites/default/files/styles/931x523/public/images/2019-07/073119-banana-1280x720-recovered.jpg?h=c673cd1c&itok=-UHxA7Xc
+[2019-08-29 14:04:43,362 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/6d066af72afc40b2b74a5fad17cf0ae4.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/6d066af72afc40b2b74a5fad17cf0ae4.jpg'
+[2019-08-29 14:04:43,363 INFO download_all]: Making request (10/100): https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2018/08/bananas-1354785_1920-1200x800.jpg
+[2019-08-29 14:04:45,284 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/0be29e4779dc4c7d86b683696fc1e25e.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/0be29e4779dc4c7d86b683696fc1e25e.jpg'
+[2019-08-29 14:04:45,284 INFO download_all]: Making request (11/100): https://i.kinja-img.com/gawker-media/image/upload/s--KnWt_q8k--/c_scale,f_auto,fl_progressive,q_80,w_800/x2rldmmtwzcew5gqjepf.jpg
+[2019-08-29 14:04:45,797 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/61a55585c3b648b996b70fa1af4adff3.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/61a55585c3b648b996b70fa1af4adff3.jpg'
+[2019-08-29 14:04:45,798 INFO download_all]: Making request (12/100): https://www.incimages.com/uploaded_files/image/970x450/getty_687653384_2000133320009280153_366240.jpg
+[2019-08-29 14:04:46,877 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/36895a416b5445fdb0ba46dec9eab223.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/36895a416b5445fdb0ba46dec9eab223.jpg'
+[2019-08-29 14:04:46,878 INFO download_all]: Making request (13/100): https://www.newfoodmagazine.com/wp-content/uploads/bananas-snact-food-waste.jpg
+[2019-08-29 14:04:47,833 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/7b80552e8030465ba05f449d835c7429.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/7b80552e8030465ba05f449d835c7429.jpg'
+[2019-08-29 14:04:47,834 INFO download_all]: Making request (14/100): https://digitalcontent.api.tesco.com/v1/media/ghs/composite/799429dc-e8d4-430c-83f1-0b6e11945652.jpeg?h=540&w=540
+[2019-08-29 14:04:48,412 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/d37b1635897a4ad49c7407d711e732a9.jpeg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/d37b1635897a4ad49c7407d711e732a9.jpeg'
+[2019-08-29 14:04:48,413 INFO download_all]: Making request (15/100): https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/bananas-1296x728-feature.jpg?w=1155&h=1528
+[2019-08-29 14:04:48,757 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/676c9a962e824b5d994544843ce5ed08.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/676c9a962e824b5d994544843ce5ed08.jpg'
+[2019-08-29 14:04:48,758 INFO download_all]: Making request (16/100): https://thesourcebulkfoods.com.au/wp-content/uploads/2017/09/20300_Dried-Bananas.jpg
+[2019-08-29 14:04:52,078 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/446956c3a85c4e12ad3ba3ca2639ad94.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/446956c3a85c4e12ad3ba3ca2639ad94.jpg'
+[2019-08-29 14:04:52,079 INFO download_all]: Making request (17/100): https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/04/22/18/24-Banana.jpg?w968h681
+[2019-08-29 14:04:53,032 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/2ffbb3030a0644c9a318f47acdda5e24.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/2ffbb3030a0644c9a318f47acdda5e24.jpg'
+[2019-08-29 14:04:53,033 INFO download_all]: Making request (18/100): https://packagingeurope.com/downloads/6274/download/greenbanana_090719.jpg?cb=4bafc8aa862d38f0e37abb6c1fc05184&w=640
+[2019-08-29 14:04:54,083 ERROR download_all]: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/151376ad1ab84234b8bdf53aa9d8aa8e.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\__main__\tf_files\x0clower_photos/151376ad1ab84234b8bdf53aa9d8aa8e.jpg'
+[2019-08-29 14:04:54,084 INFO download_all]: Making request (19/100): https://www.kroger.com/product/images/xlarge/front/0000000004237
+[2019-08-29 14:07:35,577 INFO download_all]: Extracting image links
+[2019-08-29 14:07:35,577 INFO download_all]: Souping
+[2019-08-29 14:07:40,649 DEBUG sbcharsetprober]: ISO-8859-7 confidence = 0.0, below negative shortcut threshhold 0.05
+[2019-08-29 14:07:40,917 DEBUG sbcharsetprober]: windows-1253 confidence = 0.0, below negative shortcut threshhold 0.05
+[2019-08-29 14:07:44,566 DEBUG charsetgroupprober]: utf-8  confidence = 0.99
+[2019-08-29 14:07:44,567 DEBUG charsetgroupprober]: SHIFT_JIS Japanese confidence = 0.01
+[2019-08-29 14:07:44,568 DEBUG charsetgroupprober]: EUC-JP Japanese confidence = 0.01
+[2019-08-29 14:07:44,568 DEBUG charsetgroupprober]: GB2312 Chinese confidence = 0.01
+[2019-08-29 14:07:44,569 DEBUG charsetgroupprober]: EUC-KR Korean confidence = 0.01
+[2019-08-29 14:07:44,569 DEBUG charsetgroupprober]: CP949 Korean confidence = 0.01
+[2019-08-29 14:07:44,569 DEBUG charsetgroupprober]: Big5 Chinese confidence = 0.01
+[2019-08-29 14:07:44,569 DEBUG charsetgroupprober]: EUC-TW Taiwan confidence = 0.01
+[2019-08-29 14:07:44,570 DEBUG charsetgroupprober]: windows-1251 Russian confidence = 0.01
+[2019-08-29 14:07:44,570 DEBUG charsetgroupprober]: KOI8-R Russian confidence = 0.01
+[2019-08-29 14:07:44,570 DEBUG charsetgroupprober]: ISO-8859-5 Russian confidence = 0.07156664508626887
+[2019-08-29 14:07:44,570 DEBUG charsetgroupprober]: MacCyrillic Russian confidence = 0.0
+[2019-08-29 14:07:44,570 DEBUG charsetgroupprober]: IBM866 Russian confidence = 0.0
+[2019-08-29 14:07:44,571 DEBUG charsetgroupprober]: IBM855 Russian confidence = 0.13344194197475287
+[2019-08-29 14:07:44,571 DEBUG charsetgroupprober]: ISO-8859-7 not active
+[2019-08-29 14:07:44,571 DEBUG charsetgroupprober]: windows-1253 not active
+[2019-08-29 14:07:44,572 DEBUG charsetgroupprober]: ISO-8859-5 Bulgairan confidence = 0.10483655445638758
+[2019-08-29 14:07:44,572 DEBUG charsetgroupprober]: windows-1251 Bulgarian confidence = 0.0
+[2019-08-29 14:07:44,572 DEBUG charsetgroupprober]: TIS-620 Thai confidence = 0.18647748623878915
+[2019-08-29 14:07:44,572 DEBUG charsetgroupprober]: ISO-8859-9 Turkish confidence = 0.31472215310808693
+[2019-08-29 14:07:44,572 DEBUG charsetgroupprober]: windows-1255 Hebrew confidence = 0.0
+[2019-08-29 14:07:44,573 DEBUG charsetgroupprober]: windows-1255 Hebrew confidence = 0.0
+[2019-08-29 14:07:44,573 DEBUG charsetgroupprober]: windows-1255 Hebrew confidence = 0.0
+[2019-08-29 14:07:44,574 DEBUG charsetgroupprober]: utf-8  confidence = 0.99
+[2019-08-29 14:07:44,574 DEBUG charsetgroupprober]: SHIFT_JIS Japanese confidence = 0.01
+[2019-08-29 14:07:44,574 DEBUG charsetgroupprober]: EUC-JP Japanese confidence = 0.01
+[2019-08-29 14:07:44,575 DEBUG charsetgroupprober]: GB2312 Chinese confidence = 0.01
+[2019-08-29 14:07:44,575 DEBUG charsetgroupprober]: EUC-KR Korean confidence = 0.01
+[2019-08-29 14:07:44,575 DEBUG charsetgroupprober]: CP949 Korean confidence = 0.01
+[2019-08-29 14:07:44,576 DEBUG charsetgroupprober]: Big5 Chinese confidence = 0.01
+[2019-08-29 14:07:44,576 DEBUG charsetgroupprober]: EUC-TW Taiwan confidence = 0.01
+[2019-08-29 14:07:44,888 INFO download_all]: Extracting image urls
+[2019-08-29 14:07:44,954 INFO download_all]: Downloading images
+[2019-08-29 14:07:44,955 INFO download_all]: Making request (0/10): https://previews.123rf.com/images/tmoteam/tmoteam1512/tmoteam151200026/50467387-red-rosses.jpg
+[2019-08-29 14:07:45,997 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/e9a0c702cfd14c8e98b83385bdaa2c04.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/e9a0c702cfd14c8e98b83385bdaa2c04.jpg'
+[2019-08-29 14:07:45,999 INFO download_all]: Making request (1/10): https://previews.123rf.com/images/galina911/galina9111805/galina911180500002/101937433-bouquet-of-red-rosses.jpg
+[2019-08-29 14:07:46,866 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/90c6fdb0db1d40c98385e81819c1f9a1.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/90c6fdb0db1d40c98385e81819c1f9a1.jpg'
+[2019-08-29 14:07:46,867 INFO download_all]: Making request (2/10): https://thumbs.dreamstime.com/z/rosses-1312882.jpg
+[2019-08-29 14:07:48,026 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/8c690b25dcd64323b23365fbf01a70a5.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/8c690b25dcd64323b23365fbf01a70a5.jpg'
+[2019-08-29 14:07:48,026 INFO download_all]: Making request (3/10): http://1.bp.blogspot.com/-nxw4W10cgYI/VbHPC2CNyLI/AAAAAAAAAAs/hJEF121hhMY/s400/download%2B%25283%2529.jpg
+[2019-08-29 14:07:48,712 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/1390e1ff607a4614862f2e3322e3bee3.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/1390e1ff607a4614862f2e3322e3bee3.jpg'
+[2019-08-29 14:07:48,713 INFO download_all]: Making request (4/10): https://comps.canstockphoto.com/red-rosses-stock-photograph_csp25577590.jpg
+[2019-08-29 14:07:49,676 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/db9cd39fc2f84707a004f8892cf12eed.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/db9cd39fc2f84707a004f8892cf12eed.jpg'
+[2019-08-29 14:07:49,678 INFO download_all]: Making request (5/10): http://images5.fanpop.com/image/photos/28900000/rosses-valantines-day-special-28946106-460-276.jpg
+[2019-08-29 14:07:50,376 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/cf7e951c5bad451b8438e64435ebf4f2.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/cf7e951c5bad451b8438e64435ebf4f2.jpg'
+[2019-08-29 14:07:50,377 INFO download_all]: Making request (6/10): https://coridaknit.com/782-large_default/handbag-full-of-red-rosses.jpg
+[2019-08-29 14:07:51,350 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/39d771d737ef407e8e2479123274a245.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/39d771d737ef407e8e2479123274a245.jpg'
+[2019-08-29 14:07:51,351 INFO download_all]: Making request (7/10): https://comps.canstockphoto.com/bouquet-of-three-rosses-on-white-picture_csp11519919.jpg
+[2019-08-29 14:07:53,989 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/06f81d7df44a400e880be5a725ef2792.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/06f81d7df44a400e880be5a725ef2792.jpg'
+[2019-08-29 14:07:53,991 INFO download_all]: Making request (8/10): https://a.wattpad.com/cover/57388606-352-k556632.jpg
+[2019-08-29 14:07:55,012 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/cbf837454fa74e8d82d686b8e8adf7ee.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/cbf837454fa74e8d82d686b8e8adf7ee.jpg'
+[2019-08-29 14:07:55,013 INFO download_all]: Making request (9/10): https://thumbs.dreamstime.com/z/rosses-1312879.jpg
+[2019-08-29 14:07:55,668 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/f018a654cd384cd0ae6e05630871a03d.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/f018a654cd384cd0ae6e05630871a03d.jpg'
+[2019-08-29 14:07:55,669 INFO download_all]: Finished
+[2019-08-29 14:09:20,281 INFO download_all]: Extracting image links
+[2019-08-29 14:09:20,282 INFO download_all]: Souping
+[2019-08-29 14:09:25,196 DEBUG sbcharsetprober]: ISO-8859-7 confidence = 0.0, below negative shortcut threshhold 0.05
+[2019-08-29 14:09:25,429 DEBUG sbcharsetprober]: windows-1253 confidence = 0.0, below negative shortcut threshhold 0.05
+[2019-08-29 14:09:28,597 DEBUG charsetgroupprober]: utf-8  confidence = 0.99
+[2019-08-29 14:09:28,597 DEBUG charsetgroupprober]: SHIFT_JIS Japanese confidence = 0.01
+[2019-08-29 14:09:28,597 DEBUG charsetgroupprober]: EUC-JP Japanese confidence = 0.01
+[2019-08-29 14:09:28,598 DEBUG charsetgroupprober]: GB2312 Chinese confidence = 0.01
+[2019-08-29 14:09:28,598 DEBUG charsetgroupprober]: EUC-KR Korean confidence = 0.01
+[2019-08-29 14:09:28,598 DEBUG charsetgroupprober]: CP949 Korean confidence = 0.01
+[2019-08-29 14:09:28,598 DEBUG charsetgroupprober]: Big5 Chinese confidence = 0.01
+[2019-08-29 14:09:28,598 DEBUG charsetgroupprober]: EUC-TW Taiwan confidence = 0.01
+[2019-08-29 14:09:28,598 DEBUG charsetgroupprober]: windows-1251 Russian confidence = 0.01
+[2019-08-29 14:09:28,598 DEBUG charsetgroupprober]: KOI8-R Russian confidence = 0.01
+[2019-08-29 14:09:28,599 DEBUG charsetgroupprober]: ISO-8859-5 Russian confidence = 0.07156664508626887
+[2019-08-29 14:09:28,599 DEBUG charsetgroupprober]: MacCyrillic Russian confidence = 0.0
+[2019-08-29 14:09:28,599 DEBUG charsetgroupprober]: IBM866 Russian confidence = 0.0
+[2019-08-29 14:09:28,599 DEBUG charsetgroupprober]: IBM855 Russian confidence = 0.13344194197475287
+[2019-08-29 14:09:28,599 DEBUG charsetgroupprober]: ISO-8859-7 not active
+[2019-08-29 14:09:28,600 DEBUG charsetgroupprober]: windows-1253 not active
+[2019-08-29 14:09:28,600 DEBUG charsetgroupprober]: ISO-8859-5 Bulgairan confidence = 0.10483655445638758
+[2019-08-29 14:09:28,600 DEBUG charsetgroupprober]: windows-1251 Bulgarian confidence = 0.0
+[2019-08-29 14:09:28,600 DEBUG charsetgroupprober]: TIS-620 Thai confidence = 0.18647748623878915
+[2019-08-29 14:09:28,600 DEBUG charsetgroupprober]: ISO-8859-9 Turkish confidence = 0.3140643225540554
+[2019-08-29 14:09:28,601 DEBUG charsetgroupprober]: windows-1255 Hebrew confidence = 0.0
+[2019-08-29 14:09:28,601 DEBUG charsetgroupprober]: windows-1255 Hebrew confidence = 0.0
+[2019-08-29 14:09:28,601 DEBUG charsetgroupprober]: windows-1255 Hebrew confidence = 0.0
+[2019-08-29 14:09:28,601 DEBUG charsetgroupprober]: utf-8  confidence = 0.99
+[2019-08-29 14:09:28,601 DEBUG charsetgroupprober]: SHIFT_JIS Japanese confidence = 0.01
+[2019-08-29 14:09:28,601 DEBUG charsetgroupprober]: EUC-JP Japanese confidence = 0.01
+[2019-08-29 14:09:28,601 DEBUG charsetgroupprober]: GB2312 Chinese confidence = 0.01
+[2019-08-29 14:09:28,602 DEBUG charsetgroupprober]: EUC-KR Korean confidence = 0.01
+[2019-08-29 14:09:28,602 DEBUG charsetgroupprober]: CP949 Korean confidence = 0.01
+[2019-08-29 14:09:28,602 DEBUG charsetgroupprober]: Big5 Chinese confidence = 0.01
+[2019-08-29 14:09:28,602 DEBUG charsetgroupprober]: EUC-TW Taiwan confidence = 0.01
+[2019-08-29 14:09:28,827 INFO download_all]: Extracting image urls
+[2019-08-29 14:09:28,883 INFO download_all]: Downloading images
+[2019-08-29 14:09:28,883 INFO download_all]: Making request (0/10): https://previews.123rf.com/images/tmoteam/tmoteam1512/tmoteam151200026/50467387-red-rosses.jpg
+[2019-08-29 14:09:29,491 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/999219590b834d23b7c8eb5610ce0fa0.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/999219590b834d23b7c8eb5610ce0fa0.jpg'
+[2019-08-29 14:09:29,493 INFO download_all]: Making request (1/10): https://previews.123rf.com/images/galina911/galina9111805/galina911180500002/101937433-bouquet-of-red-rosses.jpg
+[2019-08-29 14:09:30,002 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/438973cc863b448691cbccf8f0ddb896.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/438973cc863b448691cbccf8f0ddb896.jpg'
+[2019-08-29 14:09:30,003 INFO download_all]: Making request (2/10): https://thumbs.dreamstime.com/z/rosses-1312882.jpg
+[2019-08-29 14:09:30,901 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/6823148171814ee796077b35732ee865.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/6823148171814ee796077b35732ee865.jpg'
+[2019-08-29 14:09:30,901 INFO download_all]: Making request (3/10): http://1.bp.blogspot.com/-nxw4W10cgYI/VbHPC2CNyLI/AAAAAAAAAAs/hJEF121hhMY/s400/download%2B%25283%2529.jpg
+[2019-08-29 14:09:31,084 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/62e5b5777e8e4fc98f47730796a38e37.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/62e5b5777e8e4fc98f47730796a38e37.jpg'
+[2019-08-29 14:09:31,084 INFO download_all]: Making request (4/10): https://comps.canstockphoto.com/red-rosses-stock-photograph_csp25577590.jpg
+[2019-08-29 14:10:07,108 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/bfebaed1284b40daa21ad3c7d62aa751.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/bfebaed1284b40daa21ad3c7d62aa751.jpg'
+[2019-08-29 14:10:07,109 INFO download_all]: Making request (5/10): http://images5.fanpop.com/image/photos/28900000/rosses-valantines-day-special-28946106-460-276.jpg
+[2019-08-29 14:10:07,726 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/4386a81b29b4408da5d1f7971b9be0e6.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/4386a81b29b4408da5d1f7971b9be0e6.jpg'
+[2019-08-29 14:10:07,727 INFO download_all]: Making request (6/10): https://coridaknit.com/782-large_default/handbag-full-of-red-rosses.jpg
+[2019-08-29 14:10:08,318 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/54b37e6277e240ed8f92bd9fa76dc194.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/54b37e6277e240ed8f92bd9fa76dc194.jpg'
+[2019-08-29 14:10:08,318 INFO download_all]: Making request (7/10): https://comps.canstockphoto.com/bouquet-of-three-rosses-on-white-picture_csp11519919.jpg
+[2019-08-29 14:10:09,772 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/64ff42062de549da8978a3d0467a89b3.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/64ff42062de549da8978a3d0467a89b3.jpg'
+[2019-08-29 14:10:09,773 INFO download_all]: Making request (8/10): https://a.wattpad.com/cover/57388606-352-k556632.jpg
+[2019-08-29 14:10:09,976 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/b5bb851c87424959a4d07178c5e8344e.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/b5bb851c87424959a4d07178c5e8344e.jpg'
+[2019-08-29 14:10:09,977 INFO download_all]: Making request (9/10): https://thumbs.dreamstime.com/z/rosses-1312879.jpg
+[2019-08-29 14:10:10,408 ERROR download_all]: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/809738068c424a919bfefdccda594cab.jpg'
+Traceback (most recent call last):
+  File "download_all.py", line 72, in download_images_to_dir
+    save_image(raw_image, image_type, save_directory)
+  File "download_all.py", line 64, in save_image
+    with open(save_path, 'wb') as image_file:
+FileNotFoundError: [Errno 2] No such file or directory: '~/Documents/project/ImageWork/Beta1/wineBottle/809738068c424a919bfefdccda594cab.jpg'
+[2019-08-29 14:10:10,409 INFO download_all]: Finished
+[2019-08-29 14:11:15,333 INFO download_all]: Extracting image links
+[2019-08-29 14:11:15,334 INFO download_all]: Souping
